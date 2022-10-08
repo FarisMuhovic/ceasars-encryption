@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design.css">
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Encryption</a>
+      <a href="decryption.html" style="background-color: gray">Decryption</a>
+    </nav>
+    <div class="decrypt">
+      <h4>Decrypt text</h4>
+      <textarea autofocus placeholder="..." id="textboxdecrypt" required></textarea>
+      <label for="textboxencrypt"><button id="decryptbtn">Decrypt</button></label>
+      <p>Your Decryption: <span id="decryptfinish"></span></p>
+    </div>
+    <script src="decrypt.js" async defer></script>
+  </body>
+</html>

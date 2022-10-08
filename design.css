@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(28, 28, 51);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.651);
+}
+a {
+  color:rgb(28, 28, 51);
+  text-decoration: none;
+  line-height: 30px;
+  padding: 10px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  font-weight: 1000;
+  font-size: 22px;
+  width: 200px;
+  text-align: center;
+}
+a:hover {
+  background-color:rgb(28, 28, 51);
+  color: white;
+  box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.651);
+}
+.encrypt , .decrypt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  color: white;
+  font-size: 35px;
+  gap: 15px;
+}
+.encrypt textarea , .decrypt textarea{
+  width: 300px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#encryptbtn , #decryptbtn{
+  width: 150px;
+  height: 35px;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+#encryptbtn:hover , #decryptbtn:hover {
+  background-color: purple;
+  color: white;
+}
+.encrypt p , .decrypt p{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.encrypt p span  , .decrypt p span {
+  background-color:rgb(50, 50, 88);
+  min-width: 150px;
+  min-height: 50px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
